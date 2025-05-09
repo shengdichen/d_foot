@@ -1,0 +1,48 @@
+[terminal]
+shell = { program = "pwsh", args = ["-NoLogo"] }
+
+[window]
+decorations = "None"
+opacity = 0.90625
+
+[colors.primary]
+background = "#000000"
+foreground = "#efe3fb"
+dim_foreground = "#efe3fb"
+bright_foreground = "#efe3fb"
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+# color palette 0-7
+[colors.normal]
+black = "#000000"
+red = "#ef1757"
+green = "#3fbf5f"
+yellow = "#efd767"
+blue = "#1f97df"
+magenta = "#ef77c7"
+cyan = "#7fd7f3"
+white = "#97879f"
+
+# color palette 8-15
+[colors.bright]
+black = "#2b272f"
+red = "#bf1f1f"
+green = "#1fbf1f"
+yellow = "#bfbf1f"
+blue = "#1f1fbf"
+magenta = "#bf1fbf"
+cyan = "#1fbfbf"
+white = "#efe3fb"
+
+[cursor]
+style = "underline"
+unfocused_hollow = true
+
+[font]
+normal = { family = "Shevska", style = "W417" }
+bold = { family = "Shevska", style = "W741" }
+italic = { family = "Shevska", style = "W417" }
+bold_italic = { family = "Shevska", style = "W741" }
+size = 11.5
